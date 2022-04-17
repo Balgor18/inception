@@ -1,9 +1,13 @@
 FROM debian:buster
 
+# RUN adduser fcatinau --disabled-password --no-create-home --system --ingroup root
+
 RUN apt update -y
 RUN apt install mariadb-server -y
-# RUN apt-get install mysql-server -y
 
+# USER fcatinau
+
+# COPY --chown=fcatinau:fcatinau  ./config/script.sh /var/.
 COPY ./config/script.sh /var/.
 
 # ENTRYPOINT ["sh", "/var/script.sh" ]

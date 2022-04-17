@@ -8,6 +8,7 @@ FLUSH PRIVILEGES;
 exit
 EOF
 
-mysql -u root -p < /var/conf.log
+# mysql -u root -p --skip-password < /var/conf.log
+mysql -u root -p --skip-password < /var/conf.log
 
 rm /var/conf.log
