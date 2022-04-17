@@ -2,7 +2,8 @@ FROM debian:buster
 
 RUN apt update -y
 RUN apt install mariadb-server -y
+# RUN apt-get install mysql-server -y
 
-COPY script.sh /var/.
+COPY ./config/script.sh /var/.
 
-# ENTRYPOINT [ "executable" ]
+# ENTRYPOINT ["sh", "/var/script.sh" ]
