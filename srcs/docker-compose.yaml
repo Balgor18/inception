@@ -1,29 +1,39 @@
 version: '3.9'
-service:
+services:
   # Mariadb config
   mariadb:
-    image: mariadb
+    build :
+      context : ./requirements/mariadb/.
+      dockerfile : ./Dockerfile
+    ports :
+      - "3306:3306/tcp" # host:container/UDP or tcp
+    restart : always
+    # image: mariadb
     volumes:
-      - db_data:/var/lib/mysql/data
-    # ports:
-    #   - 3306:3306
-  # Nginx config
-  nginx:
-    image: nginx
+      - /Users/florian/Desktop/volume/db_data:/var/lib/mysql/data
     ports:
-      - 443:443
-    volumes:
-      - wordpress:/var/www/html/
-  wordpress:
-    image: wordpress
-    depends_on :
-      - nginx
-      - mariadb
-    volumes :
-      - wordpress:/var/www/html
+      - 3306:3306
+    env_file :
+      - .env
 
+  # Nginx config
+  # nginx:
+  #   image: nginx
+  #   restart: always
+  #   ports:
+  #     - 443:443
+    # volumes:
+    #   - /Users/florian/Desktop/volume/wordpress:/var/www/html/
+    # env_file :
+    #   - .env
 
-
-volumes:
-  db_data
-  wordpress
+  # wordpress:
+  #   image: wordpress
+  #   restart: always
+  #   depends_on :
+  #     - nginx
+  #     - mariadb
+    # volumes :
+    #   - /Users/florian/Desktop/volume/wordpress:/var/www/html
+    # env_file :
+    #   - .env

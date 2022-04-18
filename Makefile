@@ -1,2 +1,7 @@
+DOCKER	=	docker
+
 all :
-	docker
+	$(DOCKER) compose -f srcs/docker-compose.yaml create
+
+fclean :
+	$(DOCKER) system prune -f
