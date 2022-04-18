@@ -5,6 +5,7 @@ https://worp.io/docker-and-zombie-processes-pid-1-in-containers/
 
 # best practices
 https://sysdig.com/blog/dockerfile-best-practices/
+
 https://docs.docker.com/develop/develop-images/dockerfile_best-practices/
 https://www.qovery.com/blog/best-practices-and-tips-for-writing-a-dockerfile
 https://codefresh.io/docker-tutorial/not-ignore-dockerignore-2/
@@ -13,8 +14,21 @@ https://codefresh.io/docker-tutorial/not-ignore-dockerignore-2/
 https://www.nginx.com/resources/wiki/start/topics/tutorials/config_pitfalls/
 https://www.nginx.com/resources/wiki/start/
 
-# mysql
+# docker compose
+https://docs.docker.com/compose/gettingstarted/
+https://docs.docker.com/compose/reference/
 
+https://docs.docker.com/compose/compose-file/compose-file-v3/
+https://gabrieltanner.org/blog/docker-compose
+
+# Volume
+# Need to use path mapping
+
+# Env var
+# use .Env (strongly recommended in subject)
+
+# mysql
+https://www.digitalocean.com/community/tutorials/how-to-install-mariadb-on-debian-10
 
 # video
 https://www.youtube.com/watch?v=3c-iBn73dDE&t=2s

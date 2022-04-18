@@ -1,0 +1,29 @@
+version: '3.9'
+service:
+  # Mariadb config
+  mariadb:
+    image: mariadb
+    volumes:
+      - db_data:/var/lib/mysql/data
+    # ports:
+    #   - 3306:3306
+  # Nginx config
+  nginx:
+    image: nginx
+    ports:
+      - 443:443
+    volumes:
+      - wordpress:/var/www/html/
+  wordpress:
+    image: wordpress
+    depends_on :
+      - nginx
+      - mariadb
+    volumes :
+      - wordpress:/var/www/html
+
+
+
+volumes:
+  db_data
+  wordpress
