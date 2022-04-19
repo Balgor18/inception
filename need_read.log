@@ -19,6 +19,9 @@ https://www.openssl.org/docs/man1.0.2/man1/openssl-req.html
 # debut du site sympa
 https://www.wistee.fr/installer-ssl/activer-ssl-nginx.html
 
+#Wordpress
+https://code.tutsplus.com/articles/download-and-install-wordpress-via-the-shell-over-ssh--wp-24403
+
 # docker compose
 https://docs.docker.com/compose/gettingstarted/
 https://docs.docker.com/compose/reference/

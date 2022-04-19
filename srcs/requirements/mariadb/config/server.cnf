@@ -101,8 +101,8 @@ expire_logs_days        = 10
 # MySQL/MariaDB default is Latin1, but in Debian we rather default to the full
 # utf8 4-byte character set. See also client.cnf
 #
-character-set-server  = utf32
-collation-server      = utf32_general_ci
+character-set-server  = utf8
+collation-server      = utf8_general_ci
 
 #
 # * InnoDB

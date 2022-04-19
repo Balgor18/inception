@@ -7,7 +7,8 @@ ifeq ($(OS), Linux)
 endif
 
 all		:
-	$(DOCKER) -f srcs/docker-compose.yaml create
+	$(DOCKER) -f srcs/docker-compose.yaml build
+	$(DOCKER) -f srcs/docker-compose.yaml run mariadb nginx wordpress
 
 fclean	:
 	docker system prune -f

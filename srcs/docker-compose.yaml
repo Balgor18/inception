@@ -30,16 +30,20 @@ services:
     env_file :
       - .env
 
-  # wordpress:
-  #   image: wordpress
-  #   restart: always
-  #   depends_on :
-  #     - nginx
-  #     - mariadb
-    # volumes :
-    #   - /Users/florian/Desktop/volume/wordpress:/var/www/html
-    # env_file :
-    #   - .env
+  wordpress:
+    build :
+      context : ./requirements/wordpress/.
+      dockerfile : ./Dockerfile
+    restart: always
+    depends_on :
+      - nginx
+      - mariadb
+    networks:
+      - inception
+    volumes :
+      - /Users/florian/Desktop/volume/wordpress:/var/www/html
+    env_file :
+      - .env
 
 networks:
   inception:
