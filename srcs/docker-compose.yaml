@@ -6,10 +6,12 @@ services:
       context : ./requirements/mariadb/.
       dockerfile : ./Dockerfile
     ports :
-      - "3306:3306/tcp" # not sure for this
+      - "3306" # not sure for this
     restart : always
     volumes:
       - /home/fcatinau/data/db_data:/var/lib/mysql/data
+    networks:
+      - inception
     env_file :
       - .env
 
@@ -19,10 +21,12 @@ services:
       context : ./requirements/nginx/.
       dockerfile : ./Dockerfile
     ports:
-      - "443:443/tcp" # host:container/UDP or tcp
+      - "443:443" # host:container/UDP or tcp
+    restart: always
     volumes:
       - /Users/florian/Desktop/volume/wordpress:/var/www/html/
-    restart: always
+    networks:
+      - inception
     env_file :
       - .env
 
@@ -36,3 +40,7 @@ services:
     #   - /Users/florian/Desktop/volume/wordpress:/var/www/html
     # env_file :
     #   - .env
+
+networks:
+  inception:
+    driver: bridge
