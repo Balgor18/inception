@@ -6,26 +6,25 @@ services:
       context : ./requirements/mariadb/.
       dockerfile : ./Dockerfile
     ports :
-      - "3306:3306/tcp" # host:container/UDP or tcp
+      - "3306:3306/tcp" # not sure for this
     restart : always
-    # image: mariadb
     volumes:
-      - /Users/florian/Desktop/volume/db_data:/var/lib/mysql/data
-    ports:
-      - 3306:3306
+      - /home/fcatinau/data/db_data:/var/lib/mysql/data
     env_file :
       - .env
 
   # Nginx config
-  # nginx:
-  #   image: nginx
-  #   restart: always
-  #   ports:
-  #     - 443:443
-    # volumes:
-    #   - /Users/florian/Desktop/volume/wordpress:/var/www/html/
-    # env_file :
-    #   - .env
+  nginx:
+    build :
+      context : ./requirements/nginx/.
+      dockerfile : ./Dockerfile
+    ports:
+      - "443:443/tcp" # host:container/UDP or tcp
+    volumes:
+      - /Users/florian/Desktop/volume/wordpress:/var/www/html/
+    restart: always
+    env_file :
+      - .env
 
   # wordpress:
   #   image: wordpress

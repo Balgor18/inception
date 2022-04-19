@@ -14,6 +14,11 @@ https://codefresh.io/docker-tutorial/not-ignore-dockerignore-2/
 https://www.nginx.com/resources/wiki/start/topics/tutorials/config_pitfalls/
 https://www.nginx.com/resources/wiki/start/
 
+# ssl
+https://www.openssl.org/docs/man1.0.2/man1/openssl-req.html
+# debut du site sympa
+https://www.wistee.fr/installer-ssl/activer-ssl-nginx.html
+
 # docker compose
 https://docs.docker.com/compose/gettingstarted/
 https://docs.docker.com/compose/reference/
