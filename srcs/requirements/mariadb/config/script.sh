@@ -1,10 +1,21 @@
+# cat << EOF > /var/conf.log
+# CREATE DATABASE $DB_NAME;
+# GRANT ALL ON *.* TO 'root'@'localhost' IDENTIFIED BY '$PASSWORD' WITH GRANT OPTION;
+# SET PASSWORD FOR 'root'@'localhost'=PASSWORD('$PASSWORD') ;
+# GRANT ALL ON *.* TO '$ADMIN_USER'@'%' IDENTIFIED BY '$ADMIN_PASSWORD';
+
+# GRANT ALL ON $DB_NAME.* TO '$USER'@'%' IDENTIFIED BY '$WP_PASSWORD';
+# FLUSH PRIVILEGES;
+# exit
+# EOF
+
 cat << EOF > /var/conf.log
-CREATE DATABASE $DB_NAME;
-GRANT ALL ON *.* TO 'root'@'localhost' IDENTIFIED BY '$PASSWORD' WITH GRANT OPTION;
-SET PASSWORD FOR 'root'@'localhost'=PASSWORD('$PASSWORD') ;
-GRANT ALL ON *.* TO '$ADMIN_USER'@'%' IDENTIFIED BY '$ADMIN_PASSWORD';
-CREATE DATABASE IF NOT EXISTS wordpress;
-GRANT ALL ON $DB_NAME.* TO '$USER'@'%' IDENTIFIED BY '$WP_PASSWORD';
+CREATE DATABASE wordpress;
+GRANT ALL ON *.* TO 'root'@'localhost' IDENTIFIED BY '1R00tP4sword1*' WITH GRANT OPTION;
+SET PASSWORD FOR 'root'@'localhost'=PASSWORD('1R00tP4sword1*') ;
+GRANT ALL ON *.* TO 'fcatinau'@'%' IDENTIFIED BY 'fcatinau_42';
+
+GRANT ALL ON wordpress.* TO 'wordpress'@'%' IDENTIFIED BY '2134tgefw456y*';
 FLUSH PRIVILEGES;
 exit
 EOF
@@ -13,7 +24,7 @@ EOF
 # mysql -u root -p --skip-password < /var/conf.log
 
 mysqld --user=mysql --verbose=0 --skip-name-resolve --bootstrap --skip-networking=0 < /var/conf.log
-exec mysqld --console --user=mysql --skip-name-resolve --skip-networking=0 $@
+mysqld --console --user=mysql --skip-name-resolve --skip-networking=0
 
-# service mysql start
+exec service mysql start
 # rm /var/conf.log
