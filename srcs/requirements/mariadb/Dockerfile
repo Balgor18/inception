@@ -1,13 +1,10 @@
 FROM debian:buster
 
-# RUN adduser fcatinau --disabled-password --no-create-home --system --ingroup root
+EXPOSE 3306
 
-RUN apt update -y && apt install mariadb-server -y
+RUN apt update -y && apt install mariadb-server mariadb-client -y
 
-# USER fcatinau
-
-# COPY --chown=fcatinau:fcatinau  ./config/script.sh /var/.
 COPY ./config/server.cnf /etc/mysql/mariadb.conf.d/server.cnf
 COPY ./config/script.sh /var/.
 
-ENTRYPOINT ["sh", "/var/script.sh" ]
+CMD ["sh", "/var/script.sh" ]

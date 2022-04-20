@@ -9,7 +9,9 @@ services:
       - "3306" # not sure for this
     restart : always
     volumes:
-      - /home/fcatinau/data/db_data:/var/lib/mysql/data
+      - /Users/florian/data/db_data:/var/lib/mysql/data
+    # volumes:
+    #   - /home/fcatinau/data/db_data:/var/lib/mysql/data
     networks:
       - inception
     env_file :
@@ -24,7 +26,9 @@ services:
       - "443:443" # host:container/UDP or tcp
     restart: always
     volumes:
-      - /Users/florian/Desktop/volume/wordpress:/var/www/html/
+      - /Users/florian/data/wordpress:/var/www/html/
+    # volumes:
+    #   - /home/fcatinau/data/wordpress:/var/www/html/
     networks:
       - inception
     env_file :
@@ -41,7 +45,9 @@ services:
     networks:
       - inception
     volumes :
-      - /Users/florian/Desktop/volume/wordpress:/var/www/html
+      - /Users/florian/data/wordpress:/var/www/html
+    # volumes :
+    #   - /home/fcatinau/data/wordpress:/var/www/html
     env_file :
       - .env
 
