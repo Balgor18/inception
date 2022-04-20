@@ -24,6 +24,9 @@ https://www.wistee.fr/installer-ssl/activer-ssl-nginx.html
 #Wordpress
 https://code.tutsplus.com/articles/download-and-install-wordpress-via-the-shell-over-ssh--wp-24403
 
+#Wordpress commandline
+https://make.wordpress.org/cli/handbook/guides/installing/
+
 # docker compose
 https://docs.docker.com/compose/gettingstarted/
 https://docs.docker.com/compose/reference/
