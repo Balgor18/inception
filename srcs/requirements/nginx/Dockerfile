@@ -8,4 +8,4 @@ RUN rm -f /etc/nginx/sites-enabled/default && ln -s /etc/nginx/sites-available/f
 
 EXPOSE 443
 
-# ENTRYPOINT ["service nginx start"]
+CMD ["nginx", "-g", "daemon off;"]

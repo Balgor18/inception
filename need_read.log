@@ -31,6 +31,10 @@ https://docs.docker.com/compose/reference/
 https://docs.docker.com/compose/compose-file/compose-file-v3/
 https://gabrieltanner.org/blog/docker-compose
 
+#dockerfile
+
+#CMD vs entrypoint
+https://www.bmc.com/blogs/docker-cmd-vs-entrypoint/#:~:text=CMD%20vs%20ENTRYPOINT%3A%20Fundamental%20differences&text=CMD%20commands%20are%20ignored%20by,as%20arguments%20of%20the%20command.
 # Volume
 # Need to use path mapping
 
