@@ -6,10 +6,10 @@ services:
       context : ./requirements/mariadb/.
       dockerfile : ./Dockerfile
     ports :
-      - "3306" # not sure for this
+      - "3306"
     restart : always
     volumes:
-      - /Users/florian/data/db_data:/var/lib/mysql/data
+      - db_data:/var/lib/mysql/data
     # volumes:
     #   - /home/fcatinau/data/db_data:/var/lib/mysql/data
     networks:
@@ -26,7 +26,7 @@ services:
       - "443:443" # host:container/UDP or tcp
     restart: always
     volumes:
-      - /Users/florian/data/wordpress:/var/www/html/
+      - wordpress:/var/www/html/
     # volumes:
     #   - /home/fcatinau/data/wordpress:/var/www/html/
     networks:
@@ -38,6 +38,8 @@ services:
     build :
       context : ./requirements/wordpress/.
       dockerfile : ./Dockerfile
+    ports :
+      - "9000"
     restart: always
     depends_on :
       - nginx
@@ -45,7 +47,7 @@ services:
     networks:
       - inception
     volumes :
-      - /Users/florian/data/wordpress:/var/www/html
+      - wordpress:/var/www/html
     # volumes :
     #   - /home/fcatinau/data/wordpress:/var/www/html
     env_file :
@@ -54,3 +56,18 @@ services:
 networks:
   inception:
     driver: bridge
+
+volumes:
+  db_data:
+    driver: local
+    driver_opts:
+      type: none
+      device: /Users/florian/data/db_data
+      o: bind
+
+  wordpress:
+    driver: local
+    driver_opts:
+      type: none
+      device: /Users/florian/data/wordpress
+      o: bind
