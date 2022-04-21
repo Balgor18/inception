@@ -10,7 +10,7 @@ chown -R www-data:www-data /var/www/html/
 
 # wp-cli config create --dbname="wordpress" --dbuser="wordpress" --dbpass="2134tgefw456y*" --allow-root 
 
-# wp-cli user create fcatinau user@fcatinau.42.fr --role=author  --allow-root
+wp-cli user create fcatinau user@fcatinau.42.fr --role=author  --allow-root
 
 exec service php7.3-fpm start
 # exec php-fpm7.3 -F -R
