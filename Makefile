@@ -11,8 +11,8 @@ endif
 
 # $(DOCKER) -f srcs/docker-compose.yaml build
 all		:
-	# mkdir -p $(HOME)data/wordpress
-	# mkdir -p $(HOME)data/db_data
+	mkdir -p $(HOME)data/wordpress
+	mkdir -p $(HOME)data/db_data
 	$(DOCKER) -f srcs/docker-compose.yml build
 	$(DOCKER) -f srcs/docker-compose.yml up
 
