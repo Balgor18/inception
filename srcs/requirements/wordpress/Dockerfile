@@ -12,4 +12,4 @@ RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli
 
 WORKDIR /var/www/html
 
-# CMD ["sh", "/var/script.sh"]
+CMD ["sh", "/var/script.sh"]
