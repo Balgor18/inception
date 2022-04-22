@@ -1,0 +1,697 @@
+Active Internet connections
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+tcp4       0      0  mbp-de-florian.61622   server-52-222-15.https ESTABLISHED
+tcp4       0      0  mbp-de-florian.61505   stackoverflow.co.https ESTABLISHED
+tcp4       0      0  mbp-de-florian.61499   151.101.120.193.https  ESTABLISHED
+tcp6       0      0  2001:861:e3c0:63.61496 par21s22-in-x0a..https ESTABLISHED
+tcp4       0      0  mbp-de-florian.61491   151.101.65.69.https    ESTABLISHED
+tcp4       0      0  mbp-de-florian.61402   lb-140-82-114-26.https ESTABLISHED
+tcp6       0      0  2001:861:e3c0:63.61365 2606:4700:60:0:1.https ESTABLISHED
+tcp6       0      0  2001:861:e3c0:63.61347 2600:9000:218c:e.https ESTABLISHED
+tcp4       0      0  mbp-de-florian.60138   cdn-185-199-109-.https ESTABLISHED
+tcp4       0      0  mbp-de-florian.60056   cdn-185-199-111-.https ESTABLISHED
+tcp6       0      0  2001:861:e3c0:63.60050 2606:50c0:8001::.https ESTABLISHED
+tcp4       0      0  mbp-de-florian.60049   cdn-185-199-111-.https ESTABLISHED
+tcp6       0      0  2001:861:e3c0:63.59486 2a04:4e42:1d::64.https ESTABLISHED
+tcp6       0      0  fe80::aede:48ff:.57148 fe80::aede:48ff:.50103 ESTABLISHED
+tcp4       0      0  mbp-de-florian.52323   163.172.250.13.https   ESTABLISHED
+tcp6       0      0  fe80::aede:48ff:.51407 fe80::aede:48ff:.50111 ESTABLISHED
+tcp6       0      0  fe80::aede:48ff:.51394 fe80::aede:48ff:.50115 ESTABLISHED
+tcp4       0      0  mbp-de-florian.49487   163.172.250.11.https   ESTABLISHED
+tcp6       0      0  2001:861:e3c0:63.49236 2600:1901:1:e52:.https ESTABLISHED
+tcp4       0      0  mbp-de-florian.49211   163.172.250.13.https   ESTABLISHED
+tcp4       0      0  mbp-de-florian.49187   162.159.135.234.https  ESTABLISHED
+tcp6       0      0  fe80::aede:48ff:.49179 fe80::aede:48ff:.50112 ESTABLISHED
+tcp6       0      0  fe80::aede:48ff:.49174 fe80::aede:48ff:.50108 ESTABLISHED
+tcp6       0      0  fe80::aede:48ff:.49170 fe80::aede:48ff:.50121 ESTABLISHED
+tcp6       0      0  fe80::aede:48ff:.49169 fe80::aede:48ff:.50114 ESTABLISHED
+tcp6       0      0  fe80::aede:48ff:.49168 fe80::aede:48ff:.50099 ESTABLISHED
+tcp6       0      0  fe80::aede:48ff:.49160 fe80::aede:48ff:.50122 ESTABLISHED
+tcp6       0      0  fe80::aede:48ff:.49167 fe80::aede:48ff:.50116 ESTABLISHED
+tcp6       0      0  fe80::aede:48ff:.49154 fe80::aede:48ff:.59602 ESTABLISHED
+tcp4       0      0  mbp-de-florian.65251   17.57.146.40.5223      ESTABLISHED
+udp4       0      0  mbp-de-florian.62157   162.159.137.232.https             
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.63854                *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp46      0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp6       0      0  *.mdns                 *.*                               
+udp4       0      0  *.mdns                 *.*                               
+udp4       0      0  *.netbios-dgm          *.*                               
+udp4       0      0  *.netbios-ns           *.*                               
+icm4       0      0  *.*                    *.*                               
+Active Multipath Internet connections
+Proto/ID  Flags      Local Address          Foreign Address        (state)    
+icm6       0      0  *.*                    *.*                               
+Active LOCAL (UNIX) domain sockets
+Address          Type   Recv-Q Send-Q            Inode             Conn             Refs          Nextref Addr
+7efe7cc2c5c8557b stream      0      0                0 7efe7cc2c5c7c0cb                0                0
+7efe7cc2c5c7c0cb stream      0      0                0 7efe7cc2c5c8557b                0                0
+7efe7cc2c5c7e583 stream      0      0                0 7efe7cc2c5c7e4bb                0                0
+7efe7cc2c5c7e4bb stream      0      0                0 7efe7cc2c5c7e583                0                0
+7efe7cc2c5c8796b stream      0      0                0 7efe7cc2c5c8764b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c8764b stream      0      0                0 7efe7cc2c5c8796b                0                0
+7efe7cc2c5c878a3 stream      0      0                0 7efe7cc2c5c7e64b                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7e64b stream      0      0                0 7efe7cc2c5c878a3                0                0
+7efe7cc2c5c877db stream      0      0                0 7efe7cc2c5c87713                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c87713 stream      0      0                0 7efe7cc2c5c877db                0                0
+7efe7cc2c5c87afb stream      0      0                0 7efe7cc2c5c7ea33                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7ea33 stream      0      0                0 7efe7cc2c5c87afb                0                0
+7efe7cc2c5c854b3 stream      0      0                0 7efe7cc2c5c853eb                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c853eb stream      0      0                0 7efe7cc2c5c854b3                0                0
+7efe7cc2c5c85323 stream      0      0                0 7efe7cc2c5c7c003                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7c003 stream      0      0                0 7efe7cc2c5c85323                0                0
+7efe7cc2c5c8683b stream      0      0                0 7efe7cc2c5c865e3                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c865e3 stream      0      0                0 7efe7cc2c5c8683b                0                0
+7efe7cc2c5c8651b stream      0      0                0 7efe7cc2c5c86453                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c86453 stream      0      0                0 7efe7cc2c5c8651b                0                0
+7efe7cc2c5c8525b stream      0      0                0 7efe7cc2c5c81e73                0                0 /var/run/mDNSResponder
+7efe7cc2c5c81e73 stream      0      0                0 7efe7cc2c5c8525b                0                0
+7efe7cc2c5c850cb stream      0      0                0 7efe7cc2c5c84f3b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c84f3b stream      0      0                0 7efe7cc2c5c850cb                0                0
+7efe7cc2c5c85193 stream      0      0                0 7efe7cc2c5c82003                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c82003 stream      0      0                0 7efe7cc2c5c85193                0                0
+7efe7cc2c5c870d3 stream      0      0                0 7efe7cc2c5c86e7b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c86e7b stream      0      0                0 7efe7cc2c5c870d3                0                0
+7efe7cc2c5c86c23 stream      0      0                0 7efe7cc2c5c86b5b                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c86b5b stream      0      0                0 7efe7cc2c5c86c23                0                0
+7efe7cc2c5c85d4b stream      0      0                0 7efe7cc2c5c85a2b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c85a2b stream      0      0                0 7efe7cc2c5c85d4b                0                0
+7efe7cc2c5c85963 stream      0      0                0 7efe7cc2c5c824b3                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c824b3 stream      0      0                0 7efe7cc2c5c85963                0                0
+7efe7cc2c5c85003 stream      0      0                0 7efe7cc2c5c81f3b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c81f3b stream      0      0                0 7efe7cc2c5c85003                0                0
+7efe7cc2c5c84e73 stream      0      0                0 7efe7cc2c5c84d53                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c84d53 stream      0      0                0 7efe7cc2c5c84e73                0                0
+7efe7cc2c5c87d53 stream      0      0                0 7efe7cc2c5c84c8b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c84c8b stream      0      0                0 7efe7cc2c5c87d53                0                0
+7efe7cc2c5c86db3 stream      0      0                0 7efe7cc2c5c83ceb                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c83ceb stream      0      0                0 7efe7cc2c5c86db3                0                0
+7efe7cc2c5c84a33 stream      0      0                0 7efe7cc2c5c847db                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c847db stream      0      0                0 7efe7cc2c5c84a33                0                0
+7efe7cc2c5c843f3 stream      0      0                0 7efe7cc2c5c8400b                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c8400b stream      0      0                0 7efe7cc2c5c843f3                0                0
+7efe7cc2c5c84583 stream      0      0                0 7efe7cc2c5c83f43                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c83f43 stream      0      0                0 7efe7cc2c5c84583                0                0
+7efe7cc2c5c844bb stream      0      0                0 7efe7cc2c5c823eb                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c823eb stream      0      0                0 7efe7cc2c5c844bb                0                0
+7efe7cc2c5c83c23 stream      0      0                0 7efe7cc2c5c83b5b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c83b5b stream      0      0                0 7efe7cc2c5c83c23                0                0
+7efe7cc2c5c8338b stream      0      0                0 7efe7cc2c5c8270b                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c8270b stream      0      0                0 7efe7cc2c5c8338b                0                0
+7efe7cc2c5c82fa3 stream      0      0                0 7efe7cc2c5c82edb                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c82edb stream      0      0                0 7efe7cc2c5c82fa3                0                0
+7efe7cc2c5c832c3 stream      0      0                0 7efe7cc2c5c83133                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c83133 stream      0      0                0 7efe7cc2c5c832c3                0                0
+7efe7cc2c5c836ab stream      0      0                0 7efe7cc2c5c83453                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c83453 stream      0      0                0 7efe7cc2c5c836ab                0                0
+7efe7cc2c5c835e3 stream      0      0                0 7efe7cc2c5c8351b                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c8351b stream      0      0                0 7efe7cc2c5c835e3                0                0
+7efe7cc2c5c82323 stream      0      0                0 7efe7cc2c5c8225b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c8225b stream      0      0                0 7efe7cc2c5c82323                0                0
+7efe7cc2c5c82193 stream      0      0                0 7efe7cc2c5c820cb                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c820cb stream      0      0                0 7efe7cc2c5c82193                0                0
+7efe7cc2c5c84713 stream      0      0                0 7efe7cc2c5c8464b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c8464b stream      0      0                0 7efe7cc2c5c84713                0                0
+7efe7cc2c5c83e7b stream      0      0                0 7efe7cc2c5c83db3                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c83db3 stream      0      0                0 7efe7cc2c5c83e7b                0                0
+7efe7cc2c5c8306b stream      0      0                0 7efe7cc2c5c82e13                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c82e13 stream      0      0                0 7efe7cc2c5c8306b                0                0
+7efe7cc2c5c82643 stream      0      0                0 7efe7cc2c5c8257b                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c8257b stream      0      0                0 7efe7cc2c5c82643                0                0
+7efe7cc2c5c84bc3 stream      0      0                0 7efe7cc2c5c84afb                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c84afb stream      0      0                0 7efe7cc2c5c84bc3                0                0
+7efe7cc2c5c8496b stream      0      0                0 7efe7cc2c5c848a3                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c848a3 stream      0      0                0 7efe7cc2c5c8496b                0                0
+7efe7cc2c5c8419b stream      0      0                0 7efe7cc2c5c840d3                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c840d3 stream      0      0                0 7efe7cc2c5c8419b                0                0
+7efe7cc2c5c8432b stream      0      0                0 7efe7cc2c5c84263                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c84263 stream      0      0                0 7efe7cc2c5c8432b                0                0
+7efe7cc2c5c83a93 stream      0      0                0 7efe7cc2c5c839cb                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c839cb stream      0      0                0 7efe7cc2c5c83a93                0                0
+7efe7cc2c5c83903 stream      0      0                0 7efe7cc2c5c83773                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c83773 stream      0      0                0 7efe7cc2c5c83903                0                0
+7efe7cc2c5c82d4b stream      0      0                0 7efe7cc2c5c82c83                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c82c83 stream      0      0                0 7efe7cc2c5c82d4b                0                0
+7efe7cc2c5c82bbb stream      0      0                0 7efe7cc2c5c7c4b3                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7c4b3 stream      0      0                0 7efe7cc2c5c82bbb                0                0
+7efe7cc2c5c82af3 stream      0      0                0 7efe7cc2c5c82a2b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c82a2b stream      0      0                0 7efe7cc2c5c82af3                0                0
+7efe7cc2c5c827d3 stream      0      0                0 7efe7cc2c5c7c70b                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7c70b stream      0      0                0 7efe7cc2c5c827d3                0                0
+7efe7cc2c5c82963 stream      0      0                0 7efe7cc2c5c8289b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c8289b stream      0      0                0 7efe7cc2c5c82963                0                0
+7efe7cc2c5c831fb stream      0      0                0 7efe7cc2c5c7d133                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7d133 stream      0      0                0 7efe7cc2c5c831fb                0                0
+7efe7cc2c5c7c25b stream      0      0                0 7efe7cc2c5c7d83b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c7d83b stream      0      0                0 7efe7cc2c5c7c25b                0                0
+7efe7cc2c5c7c193 stream      0      0                0 7efe7cc2c5c7bf3b                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7bf3b stream      0      0                0 7efe7cc2c5c7c193                0                0
+7efe7cc2c5c7be73 stream      0      0                0 7efe7cc2c5c7e263                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c7e263 stream      0      0                0 7efe7cc2c5c7be73                0                0
+7efe7cc2c5c7e00b stream      0      0                0 7efe7cc2c5c7d903                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7d903 stream      0      0                0 7efe7cc2c5c7e00b                0                0
+7efe7cc2c5c7df43 stream      0      0                0 7efe7cc2c5c7de7b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c7de7b stream      0      0                0 7efe7cc2c5c7df43                0                0
+7efe7cc2c5c7e96b stream      0      0                0 7efe7cc2c5c7e713                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7e713 stream      0      0                0 7efe7cc2c5c7e96b                0                0
+7efe7cc2c5c7cc83 stream      0      0                0 7efe7cc2c5c7cbbb                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c7cbbb stream      0      0                0 7efe7cc2c5c7cc83                0                0
+7efe7cc2c5c7caf3 stream      0      0                0 7efe7cc2c5c7c7d3                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7c7d3 stream      0      0                0 7efe7cc2c5c7caf3                0                0
+7efe7cc2c5c7c3eb stream      0      0                0 7efe7cc2c5c7c323                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c7c323 stream      0      0                0 7efe7cc2c5c7c3eb                0                0
+7efe7cc2c5c7d06b stream      0      0                0 7efe7cc2c5c7cfa3                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7cfa3 stream      0      0                0 7efe7cc2c5c7d06b                0                0
+7efe7cc2c5c7e3f3 stream      0      0                0 7efe7cc2c5c7e32b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c7e32b stream      0      0                0 7efe7cc2c5c7e3f3                0                0
+7efe7cc2c5c7e19b stream      0      0                0 7efe7cc2c5c7e0d3                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7e0d3 stream      0      0                0 7efe7cc2c5c7e19b                0                0
+7efe7cc2c5c7ec8b stream      0      0                0 7efe7cc2c5c7eafb                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7eafb stream      0      0                0 7efe7cc2c5c7ec8b                0                0
+7efe7cc2c5c7e8a3 stream      0      0                0 7efe7cc2c5c7e7db                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7e7db stream      0      0                0 7efe7cc2c5c7e8a3                0                0
+7efe7cc2c5c7ce13 stream      0      0                0 7efe7cc2c5c7cd4b                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c7cd4b stream      0      0                0 7efe7cc2c5c7ce13                0                0
+7efe7cc2c5c8606b stream      0      0                0 7efe7cc2c5c85c83                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/backend.sock
+7efe7cc2c5c85c83 stream      0      0                0 7efe7cc2c5c8606b                0                0
+7efe7cc2c5c86773 stream      0      0                0 7efe7cc2c5c866ab                0                0
+7efe7cc2c5c866ab stream      0      0                0 7efe7cc2c5c86773                0                0
+7efe7cc2c5c85bbb stream      0      0                0 7efe7cc2c5c85af3                0                0
+7efe7cc2c5c85af3 stream      0      0                0 7efe7cc2c5c85bbb                0                0
+7efe7cc2c5c7ca2b stream      0      0                0 7efe7cc2c5c7c963                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/CoreFxPipe_vscode.83cef0c3d0ac7e112d5d4f904ad65146
+7efe7cc2c5c7c963 stream      0      0                0 7efe7cc2c5c7ca2b                0                0
+7efe7cc2c5c7c89b stream      0      0 7efe7cb93803c073                0                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/CoreFxPipe_07ddebfcc6794013908a1b55b5e53e0b
+7efe7cc2c5c7c643 stream      0      0 7efe7cb93803be73                0                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/vscode-git-a40102a731.sock
+7efe7cc2c5c7d773 stream      0      0                0 7efe7cc2c5c951fb                0                0 /var/run/mDNSResponder
+7efe7cc2c5c951fb stream      0      0                0 7efe7cc2c5c7d773                0                0
+7efe7cc2c5c7ddb3 stream      0      0                0 7efe7cc2c5c7db5b                0                0
+7efe7cc2c5c7db5b stream      0      0                0 7efe7cc2c5c7ddb3                0                0
+7efe7cc2c5c7da93 stream      0      0                0 7efe7cc2c5c7d9cb                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/vscode-ipc-b0ece990-16d4-4d20-b36b-73d7e9d8b4fc.sock
+7efe7cc2c5c7d9cb stream      0      0                0 7efe7cc2c5c7da93                0                0
+7efe7cc2c5c7d6ab stream      0      0                0 7efe7cc2c5c7d5e3                0                0
+7efe7cc2c5c7d5e3 stream      0      0                0 7efe7cc2c5c7d6ab                0                0
+7efe7cc2c5c7d51b stream      0      0                0 7efe7cc2c5c7d453                0                0
+7efe7cc2c5c7d453 stream      0      0                0 7efe7cc2c5c7d51b                0                0
+7efe7cc2c5c7d38b stream      0      0                0 7efe7cc2c5c7d2c3                0                0
+7efe7cc2c5c7d2c3 stream      0      0                0 7efe7cc2c5c7d38b                0                0
+7efe7cc2c5c7d1fb stream      0      0                0 7efe7cc2c5c95133                0                0
+7efe7cc2c5c95133 stream      0      0                0 7efe7cc2c5c7d1fb                0                0
+7efe7cc2c5c8700b stream      0      0                0 7efe7cc2c5c86f43                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/backend.sock
+7efe7cc2c5c86f43 stream      0      0                0 7efe7cc2c5c8700b                0                0
+7efe7cc2c5c938a3 stream      0      0                0 7efe7cc2c5c937db                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c937db stream      0      0                0 7efe7cc2c5c938a3                0                0
+7efe7cc2c5c7dceb stream      0      0                0 7efe7cc2c5c7dc23                0                0
+7efe7cc2c5c7dc23 stream      0      0                0 7efe7cc2c5c7dceb                0                0
+7efe7cc2c5c7f193 stream      0      0                0 7efe7cc2c5c8383b                0                0
+7efe7cc2c5c8383b stream      0      0                0 7efe7cc2c5c7f193                0                0
+7efe7cc2c5c91bbb stream      0      0                0 7efe7cc2c5c91643                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c91643 stream      0      0                0 7efe7cc2c5c91bbb                0                0
+7efe7cc2c5c9364b stream      0      0                0 7efe7cc2c5c93583                0                0 /var/run/mDNSResponder
+7efe7cc2c5c93583 stream      0      0                0 7efe7cc2c5c9364b                0                0
+7efe7cc2c5c913eb stream      0      0                0 7efe7cc2c5c94323                0                0 /var/run/mDNSResponder
+7efe7cc2c5c94323 stream      0      0                0 7efe7cc2c5c913eb                0                0
+7efe7cc2c5c91af3 stream      0      0                0 7efe7cc2c5c91a2b                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/CoreFxPipe_vscode.83cef0c3d0ac7e112d5d4f904ad65146
+7efe7cc2c5c91a2b stream      0      0                0 7efe7cc2c5c91af3                0                0
+7efe7cc2c5c91e13 stream      0      0 7efe7cb937d7ef73                0                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/CoreFxPipe_vscode.83cef0c3d0ac7e112d5d4f904ad65146
+7efe7cc2c5c91003 stream      0      0 7efe7cb937d7f973                0                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/dotnet-diagnostic-1403-1650619006-socket
+7efe7cc2c5c90f3b stream      0      0                0 7efe7cc2c5c90e73                0                0
+7efe7cc2c5c90e73 stream      0      0                0 7efe7cc2c5c90f3b                0                0
+7efe7cc2c5c96d53 stream      0      0 7efe7cb937d95273                0                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/vscode-git-10194c49e7.sock
+7efe7cc2c5c952c3 stream      0      0                0 7efe7cc2c5c94d4b                0                0
+7efe7cc2c5c94d4b stream      0      0                0 7efe7cc2c5c952c3                0                0
+7efe7cc2c5c94c83 stream      0      0                0 7efe7cc2c5c94bbb                0                0
+7efe7cc2c5c94bbb stream      0      0                0 7efe7cc2c5c94c83                0                0
+7efe7cc2c5c94e13 stream      0      0 7efe7cb937d98173                0                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/CoreFxPipe_027568f0e71d42fe8a7ffb7396cccf4d
+7efe7cc2c5c940cb stream      0      0                0 7efe7cc2c5c94003                0                0 /var/run/mDNSResponder
+7efe7cc2c5c94003 stream      0      0                0 7efe7cc2c5c940cb                0                0
+7efe7cc2c5c91d4b stream      0      0                0 7efe7cc2c5c91c83                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/discord-ipc-0
+7efe7cc2c5c91c83 stream      0      0                0 7efe7cc2c5c91d4b                0                0
+7efe7cc2c5c94af3 stream      0      0                0 7efe7cc2c5c94a2b                0                0
+7efe7cc2c5c94a2b stream      0      0                0 7efe7cc2c5c94af3                0                0
+7efe7cc2c5c944b3 stream      0      0                0 7efe7cc2c5c943eb                0                0 /var/run/mDNSResponder
+7efe7cc2c5c943eb stream      0      0                0 7efe7cc2c5c944b3                0                0
+7efe7cc2c5c96c8b stream      0      0                0 7efe7cc2c5c96bc3                0                0
+7efe7cc2c5c96bc3 stream      0      0                0 7efe7cc2c5c96c8b                0                0
+7efe7cc2c5c96afb stream      0      0                0 7efe7cc2c5c963f3                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/vscode-ipc-7f815159-861a-40d3-ac37-a96130b0ad4c.sock
+7efe7cc2c5c963f3 stream      0      0                0 7efe7cc2c5c96afb                0                0
+7efe7cc2c5c9632b stream      0      0                0 7efe7cc2c5c9506b                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9506b stream      0      0                0 7efe7cc2c5c9632b                0                0
+7efe7cc2c5c960d3 stream      0      0                0 7efe7cc2c5c95f43                0                0
+7efe7cc2c5c95f43 stream      0      0                0 7efe7cc2c5c960d3                0                0
+7efe7cc2c5c95e7b stream      0      0                0 7efe7cc2c5c95c23                0                0
+7efe7cc2c5c95c23 stream      0      0                0 7efe7cc2c5c95e7b                0                0
+7efe7cc2c5c959cb stream      0      0                0 7efe7cc2c5c956ab                0                0
+7efe7cc2c5c956ab stream      0      0                0 7efe7cc2c5c959cb                0                0
+7efe7cc2c5c955e3 stream      0      0                0 7efe7cc2c5c9551b                0                0
+7efe7cc2c5c9551b stream      0      0                0 7efe7cc2c5c955e3                0                0
+7efe7cc2c5c96a33 stream      0      0 7efe7cb937ceb873                0                0                0 /Users/florian/Library/Application Support/Code/1.63.2-main.sock
+7efe7cc2c5c95db3 stream      0      0                0 7efe7cc2c5c95ceb                0                0 /var/run/mDNSResponder
+7efe7cc2c5c95ceb stream      0      0                0 7efe7cc2c5c95db3                0                0
+7efe7cc2c5c9583b stream      0      0                0 7efe7cc2c5c95773                0                0 /var/run/mDNSResponder
+7efe7cc2c5c95773 stream      0      0                0 7efe7cc2c5c9583b                0                0
+7efe7cc2c5c96583 stream      0      0                0 7efe7cc2c5c964bb                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c964bb stream      0      0                0 7efe7cc2c5c96583                0                0
+7efe7cc2c5c9425b stream      0      0                0 7efe7cc2c5c94193                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c94193 stream      0      0                0 7efe7cc2c5c9425b                0                0
+7efe7cc2c5c93f3b stream      0      0                0 7efe7cc2c5c93e73                0                0 /var/run/mDNSResponder
+7efe7cc2c5c93e73 stream      0      0                0 7efe7cc2c5c93f3b                0                0
+7efe7cc2c5c95b5b stream      0      0                0 7efe7cc2c5c95a93                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/devenv-volumes.sock
+7efe7cc2c5c95a93 stream      0      0                0 7efe7cc2c5c95b5b                0                0
+7efe7cc2c5c94963 stream      0      0                0 7efe7cc2c5c9489b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c9489b stream      0      0                0 7efe7cc2c5c94963                0                0
+7efe7cc2c5c95453 stream      0      0                0 7efe7cc2c5c9538b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c9538b stream      0      0                0 7efe7cc2c5c95453                0                0
+7efe7cc2c5c97fa3 stream      0      0                0 7efe7cc2c5c97edb                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c97edb stream      0      0                0 7efe7cc2c5c97fa3                0                0
+7efe7cc2c5c9ae13 stream      0      0                0 7efe7cc2c5ca24bb                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5ca24bb stream      0      0                0 7efe7cc2c5c9ae13                0                0
+7efe7cc2c5c947d3 stream      0      0                0 7efe7cc2c5c9470b                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c9470b stream      0      0                0 7efe7cc2c5c947d3                0                0
+7efe7cc2c5c9696b stream      0      0 7efe7cb935a24873                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker.raw.sock
+7efe7cc2c5c9664b stream      0      0 7efe7cb936092f73                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/volume-contents.sock
+7efe7cc2c5c96263 stream      0      0                0 7efe7cc2c5c9619b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/vpnkit.data.sock
+7efe7cc2c5c9619b stream      0      0                0 7efe7cc2c5c96263                0                0
+7efe7cc2c5c968a3 stream      0      0 7efe7cb936094b73                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/lifecycle-server.sock
+7efe7cc2c5c967db stream      0      0 7efe7cb936092e73                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/filesystem-test.sock
+7efe7cc2c5c96713 stream      0      0 7efe7cb935a24173                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/filesystem-event.sock
+7efe7cc2c5c94643 stream      0      0                0 7efe7cc2c5c9457b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/ntp.udp.sock
+7efe7cc2c5c9457b stream      0      0                0 7efe7cc2c5c94643                0                0
+7efe7cc2c5c99583 stream      0      0                0 7efe7cc2c5c99263                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/memlogdq.sock
+7efe7cc2c5c99263 stream      0      0                0 7efe7cc2c5c99583                0                0
+7efe7cc2c5c98f43 stream     17      0                0 7efe7cc2c5c986ab                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/vms/0/00000002.00001003
+7efe7cc2c5c986ab stream      0      0                0 7efe7cc2c5c98f43                0                0
+7efe7cc2c5c982c3 stream      0      0 7efe7cb936096773                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/diagnosticd.sock
+7efe7cc2c5c994bb stream      0      0 7efe7cb936096673                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/debug-shell.sock
+7efe7cc2c5c97d4b stream      0      0 7efe7cb936095f73                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/dns-forwarder.sock
+7efe7cc2c5c97e13 stream      0      0 7efe7cb936096073                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/http-proxy-control.sock
+7efe7cc2c5c97c83 stream      0      0                0 7efe7cc2c5c977d3                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/dns.internal.grpc.sock
+7efe7cc2c5c977d3 stream      0      0                0 7efe7cc2c5c97c83                0                0
+7efe7cc2c5c9770b stream      0      0                0 7efe7cc2c5c9757b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/dns.system.grpc.sock
+7efe7cc2c5c9757b stream      0      0                0 7efe7cc2c5c9770b                0                0
+7efe7cc2c5c974b3 stream      0      0 7efe7cb936096473                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/devenv-volumes.sock
+7efe7cc2c5c97193 stream      0      0                0 7efe7cc2c5c99713                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/procd.sock
+7efe7cc2c5c99713 stream      0      0                0 7efe7cc2c5c97193                0                0
+7efe7cc2c5c9964b stream      0      0 7efe7cb935452273                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/procd.sock
+7efe7cc2c5c9838b stream      0      0 7efe7cb935a24e73                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/memlogdq.sock
+7efe7cc2c5c9883b stream      0      0                0 7efe7cc2c5c98773                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/vms/0/00000002.000007cf
+7efe7cc2c5c98773 stream      0      0                0 7efe7cc2c5c9883b                0                0
+7efe7cc2c5c97bbb stream      0      0                0 7efe7cc2c5c9789b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/backend.sock
+7efe7cc2c5c9789b stream      0      0                0 7efe7cc2c5c97bbb                0                0
+7efe7cc2c5c97af3 stream      0      0                0 7efe7cc2c5c97a2b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/backend.sock
+7efe7cc2c5c97a2b stream      0      0                0 7efe7cc2c5c97af3                0                0
+7efe7cc2c5c973eb stream      0      0                0 7efe7cc2c5c97323                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/backend.sock
+7efe7cc2c5c97323 stream      0      0                0 7efe7cc2c5c973eb                0                0
+7efe7cc2c5c9725b stream      0      0 7efe7cb935e68473                0                0                0 docker-frontend.sock
+7efe7cc2c5c993f3 stream      0      0                0 7efe7cc2c5c9932b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/backend.sock
+7efe7cc2c5c9932b stream      0      0                0 7efe7cc2c5c993f3                0                0
+7efe7cc2c5c97963 stream      0      0 7efe7cb935e68073                0                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/scoped_dir2YskYa/SingletonSocket
+7efe7cc2c5c97643 stream      0      0 7efe7cb935e6a973                0                0                0 /Users/florian/.docker/run/docker-cli-api.sock
+7efe7cc2c5c970cb stream      0      0 7efe7cb935e6c773                0                0                0 vms/0/00000003.000005f5
+7efe7cc2c5c97003 stream      0      0 7efe7cb935e6c673                0                0                0 vms/0/connect
+7efe7cc2c5c96f3b stream      0      0                0 7efe7cc2c5c9900b                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/vpnkit.eth.sock
+7efe7cc2c5c9900b stream      0      0                0 7efe7cc2c5c96f3b                0                0
+7efe7cc2c5c98e7b stream      0      0                0 7efe7cc2c5c98db3                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c98db3 stream      0      0                0 7efe7cc2c5c98e7b                0                0
+7efe7cc2c5c96e73 stream      0      0                0 7efe7cc2c5c99d53                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c99d53 stream      0      0                0 7efe7cc2c5c96e73                0                0
+7efe7cc2c5c98ceb stream      0      0                0 7efe7cc2c5c98c23                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c98c23 stream      0      0                0 7efe7cc2c5c98ceb                0                0
+7efe7cc2c5c99c8b stream      0      0                0 7efe7cc2c5c99bc3                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/backend.sock
+7efe7cc2c5c99bc3 stream      0      0                0 7efe7cc2c5c99c8b                0                0
+7efe7cc2c5c99afb stream      0      0                0 7efe7cc2c5c99a33                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/backend.sock
+7efe7cc2c5c99a33 stream      0      0                0 7efe7cc2c5c99afb                0                0
+7efe7cc2c5c9996b stream      0      0 7efe7cb935e6d973                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker-api-proxy-control.sock
+7efe7cc2c5c998a3 stream      0      0                0 7efe7cc2c5c997db                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/filesystem-volume.sock
+7efe7cc2c5c997db stream      0      0                0 7efe7cc2c5c998a3                0                0
+7efe7cc2c5c98b5b stream      0      0                0 7efe7cc2c5c98a93                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/filesystem-volume.sock
+7efe7cc2c5c98a93 stream      0      0                0 7efe7cc2c5c98b5b                0                0
+7efe7cc2c5c989cb stream      0      0                0 7efe7cc2c5c98903                0                0 /var/run/mDNSResponder
+7efe7cc2c5c98903 stream      0      0                0 7efe7cc2c5c989cb                0                0
+7efe7cc2c5c985e3 stream      0      0 7efe7cb935e6fa73                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/vpnkit.pcap.sock
+7efe7cc2c5c9851b stream      0      0 7efe7cb935e6f973                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/vpnkit.diag.sock
+7efe7cc2c5c98453 stream      0      0 7efe7cb935e6f873                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/vpnkit.eth.sock
+7efe7cc2c5c981fb stream      0      0 7efe7cb935e70673                0                0                0 /Users/florian/.docker/run/docker.sock
+7efe7cc2c5c98133 stream      0      0                0 7efe7cc2c5c9806b                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9806b stream      0      0                0 7efe7cc2c5c98133                0                0
+7efe7cc2c5c9ad4b stream      0      0 7efe7cb935e7b073                0                0                0 backend.native.sock
+7efe7cc2c5c9a3eb stream      0      0 7efe7cb935a24b73                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/hubproxy.sock
+7efe7cc2c5c9aa2b stream      0      0 7efe7cb935a24673                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/socks.sock
+7efe7cc2c5c9a0cb stream      0      0 7efe7cb935a24573                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/dns.internal.grpc.sock
+7efe7cc2c5c9b06b stream      0      0 7efe7cb935a24473                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/dns.system.grpc.sock
+7efe7cc2c5c9c0d3 stream      0      0 7efe7cb935a24373                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/ntp.udp.sock
+7efe7cc2c5c99f3b stream      0      0 7efe7cb935a24a73                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/filesystem-export.sock
+7efe7cc2c5c9afa3 stream      0      0 7efe7cb935a24273                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/vms/0/00000002.00001003
+7efe7cc2c5c9c00b stream      0      0                0 7efe7cc2c5c9bf43                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/filesystem-volume.sock
+7efe7cc2c5c9bf43 stream      0      0                0 7efe7cc2c5c9c00b                0                0
+7efe7cc2c5c9aedb stream      0      0 7efe7cb935a24073                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/filesystem.sock
+7efe7cc2c5c9a963 stream      0      0 7efe7cb935a24973                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/filesystem-volume.sock
+7efe7cc2c5c9be7b stream      0      0 7efe7cb935a32673                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/backend-for-guest.sock
+7efe7cc2c5c9bb5b stream      0      0 7efe7cb935a25c73                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/docker-cli.sock
+7efe7cc2c5c9ba93 stream      0      0 7efe7cb935a37d73                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/backend.sock
+7efe7cc2c5c9bdb3 stream      0      0                0 7efe7cc2c5c9bceb                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9bceb stream      0      0                0 7efe7cc2c5c9bdb3                0                0
+7efe7cc2c5c9a323 stream      0      0 7efe7cb935a25673                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/vpnkit.data.sock
+7efe7cc2c5c9a193 stream      0      0 7efe7cb935a25573                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/vpnkit.port.sock
+7efe7cc2c5c9a003 stream      0      0 7efe7cb935a26e73                0                0                0 /Users/florian/Library/Containers/com.docker.docker/Data/extension-manager.sock
+7efe7cc2c5c9bc23 stream      0      0 7efe7cb935a27c73                0                0                0 docker-dev-env-api.sock
+7efe7cc2c5c9b453 stream      0      0 7efe7cb935a44373                0                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/discord-ipc-0
+7efe7cc2c5c9b38b stream      0      0                0 7efe7cc2c5c9b2c3                0                0
+7efe7cc2c5c9b2c3 stream      8      0                0 7efe7cc2c5c9b38b                0                0
+7efe7cc2c5c9ac83 stream      0      0                0 7efe7cc2c5c9abbb                0                0
+7efe7cc2c5c9abbb stream      0      0                0 7efe7cc2c5c9ac83                0                0
+7efe7cc2c5c9a643 stream      0      0                0 7efe7cc2c5c9a57b                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9a57b stream      0      0                0 7efe7cc2c5c9a643                0                0
+7efe7cc2c5c9a89b stream      0      0 7efe7cb935246173                0                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/.com.hnc.Discord.2AUQKn/SS
+7efe7cc2c5c9a4b3 stream      0      0                0 7efe7cc2c5c9a25b                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9a25b stream      0      0                0 7efe7cc2c5c9a4b3                0                0
+7efe7cc2c5c9c7db stream      0      0                0 7efe7cc2c5c9c713                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9c713 stream      0      0                0 7efe7cc2c5c9c7db                0                0
+7efe7cc2c5c9c64b stream      0      0                0 7efe7cc2c5c9c583                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9c583 stream      0      0                0 7efe7cc2c5c9c64b                0                0
+7efe7cc2c5c9cc8b stream      0      0                0 7efe7cc2c5c9cbc3                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9cbc3 stream      0      0                0 7efe7cc2c5c9cc8b                0                0
+7efe7cc2c5c9cafb stream      0      0                0 7efe7cc2c5c9ca33                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9b9cb stream      0      0                0 7efe7cc2c5c9b903                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9ca33 stream      0      0                0 7efe7cc2c5c9cafb                0                0
+7efe7cc2c5c9b903 stream      0      0                0 7efe7cc2c5c9b9cb                0                0
+7efe7cc2c5c99e73 stream      0      0                0 7efe7cc2c5c9cd53                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9b83b stream      0      0                0 7efe7cc2c5c9b773                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9c96b stream      0      0                0 7efe7cc2c5c9c8a3                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9c4bb stream      0      0                0 7efe7cc2c5c9c3f3                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9b773 stream      0      0                0 7efe7cc2c5c9b83b                0                0
+7efe7cc2c5c9cd53 stream      0      0                0 7efe7cc2c5c99e73                0                0
+7efe7cc2c5c9c8a3 stream      0      0                0 7efe7cc2c5c9c96b                0                0
+7efe7cc2c5c9c3f3 stream      0      0                0 7efe7cc2c5c9c4bb                0                0
+7efe7cc2c5c9b6ab stream      0      0                0 7efe7cc2c5c9b5e3                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9b5e3 stream      0      0                0 7efe7cc2c5c9b6ab                0                0
+7efe7cc2c5c9c263 stream      0      0                0 7efe7cc2c5c9c19b                0                0
+7efe7cc2c5c9c19b stream      0      0                0 7efe7cc2c5c9c263                0                0
+7efe7cc2c5c9c32b stream      0      0                0 7efe7cc2c5c9f263                0                0 /Users/florian/Library/Application Support/iTerm2/iterm2-daemon-1.socket
+7efe7cc2c5c9f263 stream      0      0                0 7efe7cc2c5c9c32b                0                0
+7efe7cc2c5c9f32b stream      0      0 7efe7cb934c54873                0                0                0 /Users/florian/Library/Application Support/iTerm2/iterm2-daemon-1.socket
+7efe7cc2c5ca28a3 stream      0      0 7efe7cb934c92673                0                0                0 /var/folders/5s/7w0rs_f17d56cq39d9h6mlqh0000gn/T/.com.brave.Browser.4Dh0mC/SingletonSocket
+7efe7cc2c5c9ec23 stream      0      0                0 7efe7cc2c5c9eb5b                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9eb5b stream      0      0                0 7efe7cc2c5c9ec23                0                0
+7efe7cc2c5c9e903 stream      0      0                0 7efe7cc2c5c9e83b                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9e83b stream      0      0                0 7efe7cc2c5c9e903                0                0
+7efe7cc2c5c9e51b stream      0      0                0 7efe7cc2c5c9e453                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9e453 stream      0      0                0 7efe7cc2c5c9e51b                0                0
+7efe7cc2c5c9e38b stream      0      0                0 7efe7cc2c5c9e06b                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9e06b stream      0      0                0 7efe7cc2c5c9e38b                0                0
+7efe7cc2c5c9e2c3 stream      0      0                0 7efe7cc2c5c9e1fb                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9e1fb stream      0      0                0 7efe7cc2c5c9e2c3                0                0
+7efe7cc2c5c9f96b stream      0      0                0 7efe7cc2c5c9f8a3                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9f8a3 stream      0      0                0 7efe7cc2c5c9f96b                0                0
+7efe7cc2c5c9dd4b stream      0      0                0 7efe7cc2c5c9dc83                0                0 /var/run/usbmuxd
+7efe7cc2c5c9dc83 stream      0      0                0 7efe7cc2c5c9dd4b                0                0
+7efe7cc2c5c9dbbb stream      0      0                0 7efe7cc2c5c9daf3                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9daf3 stream      0      0                0 7efe7cc2c5c9dbbb                0                0
+7efe7cc2c5c9d643 stream      0      0                0 7efe7cc2c5c9d57b                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9d57b stream      0      0                0 7efe7cc2c5c9d643                0                0
+7efe7cc2c5c9f7db stream      0      0                0 7efe7cc2c5c9f713                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9f713 stream      0      0                0 7efe7cc2c5c9f7db                0                0
+7efe7cc2c5c9f19b stream      0      0                0 7efe7cc2c5c9dedb                0                0 /var/run/usbmuxd
+7efe7cc2c5c9dedb stream      0      0                0 7efe7cc2c5c9f19b                0                0
+7efe7cc2c5c9d25b stream      0      0                0 7efe7cc2c5c9d003                0                0
+7efe7cc2c5c9d003 stream      0      0                0 7efe7cc2c5c9d25b                0                0
+7efe7cc2c5c9f64b stream      0      0                0 7efe7cc2c5c9f583                0                0
+7efe7cc2c5c9f583 stream      0      0                0 7efe7cc2c5c9f64b                0                0
+7efe7cc2c5c9f4bb stream      0      0                0 7efe7cc2c5c9f3f3                0                0
+7efe7cc2c5c9f3f3 stream      0      0                0 7efe7cc2c5c9f4bb                0                0
+7efe7cc2c5c9d193 stream      0      0                0 7efe7cc2c5c9d0cb                0                0
+7efe7cc2c5c9d0cb stream      0      0                0 7efe7cc2c5c9d193                0                0
+7efe7cc2c5c9ef43 stream      0      0                0 7efe7cc2c5c9ee7b                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9ee7b stream      0      0                0 7efe7cc2c5c9ef43                0                0
+7efe7cc2c5c9d89b stream      0      0                0 7efe7cc2c5c9d7d3                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9d7d3 stream      0      0                0 7efe7cc2c5c9d89b                0                0
+7efe7cc2c5c9d70b stream      0      0 7efe7cb932d46a73                0                0                0 /var/run/filesystemui.socket
+7efe7cc2c5ca0d4b stream      0      0 7efe7cb932d47b73                0                0                0 /private/tmp/com.apple.launchd.6v5N5yWvyf/Listeners
+7efe7cc2c5c9cf3b stream      0      0                0 7efe7cc2c5c9fe73                0                0 /var/run/mDNSResponder
+7efe7cc2c5c9fe73 stream      0      0                0 7efe7cc2c5c9cf3b                0                0
+7efe7cc2c5ca2d53 stream      0      0                0 7efe7cc2c5ca2c8b                0                0 /var/run/mDNSResponder
+7efe7cc2c5ca2c8b stream      0      0                0 7efe7cc2c5ca2d53                0                0
+7efe7cc2c5ca183b stream      0      0                0 7efe7cc2c5ca1773                0                0
+7efe7cc2c5ca1773 stream      0      0                0 7efe7cc2c5ca183b                0                0
+7efe7cc2c5ca1453 stream      0      0 7efe7cb92f14bf73                0                0                0 /var/run/pppconfd
+7efe7cc2c5ca0edb stream      0      0 7efe7cb92e796773                0                0                0 /var/run/displaypolicyd/state
+7efe7cc2c5ca0c83 stream      0      0 7efe7cb92de84773                0                0                0 /var/run/com.docker.vmnetd.sock
+7efe7cc2c5ca0bbb stream      0      0 7efe7cb92de85b73                0                0                0 /var/run/usbmuxd
+7efe7cc2c5ca0af3 stream      0      0 7efe7cb92de86073                0                0                0 /var/rpc/ncalrpc/srvsvc
+7efe7cc2c5ca0a2b stream      0      0 7efe7cb92de85f73                0                0                0 /var/rpc/ncacn_np/srvsvc
+7efe7cc2c5ca0963 stream      0      0 7efe7cb92de86c73                0                0                0 /var/rpc/ncalrpc/wkssvc
+7efe7cc2c5ca089b stream      0      0 7efe7cb92de86b73                0                0                0 /var/rpc/ncacn_np/wkssvc
+7efe7cc2c5ca07d3 stream      0      0 7efe7cb92de86a73                0                0                0 /var/rpc/ncacn_np/mdssvc
+7efe7cc2c5ca070b stream      0      0 7efe7cb92de86973                0                0                0 /var/rpc/ncalrpc/lsarpc
+7efe7cc2c5ca0643 stream      0      0 7efe7cb92de86873                0                0                0 /var/rpc/ncacn_np/lsarpc
+7efe7cc2c5ca057b stream      0      0 7efe7cb92de86673                0                0                0 /var/run/mDNSResponder
+7efe7cc2c5ca04b3 stream      0      0 7efe7cb92de86573                0                0                0 /var/run/systemkeychaincheck.socket
+7efe7cc2c5ca03eb stream      0      0 7efe7cb92de86473                0                0                0 /private/var/run/.sim_diagnosticd_socket
+7efe7cc2c5ca0323 stream      0      0 7efe7cb92de86373                0                0                0 /var/run/portmap.socket
+7efe7cc2c5ca025b stream      0      0 7efe7cb92de87273                0                0                0 /var/run/vpncontrol.sock
+7efe7cc2c5ca0193 stream      0      0 7efe7cb92de87d73                0                0                0 /var/rpc/ncalrpc/NETLOGON
+7efe7cc2c5ca00cb stream      0      0 7efe7cb92de87a73                0                0                0 /private/var/run/cupsd
+7efe7cc2c5c7c57b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c7cedb
+7efe7cc2c5c7cedb dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c7ed53
+7efe7cc2c5c7ed53 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c7ebc3
+7efe7cc2c5c7ebc3 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c91edb
+7efe7cc2c5c91edb dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9b51b
+7efe7cc2c5c9b51b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9b1fb
+7efe7cc2c5c9b1fb dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c95903
+7efe7cc2c5c95903 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c94fa3
+7efe7cc2c5c94fa3 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c94edb
+7efe7cc2c5c94edb dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9600b
+7efe7cc2c5c9600b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9919b
+7efe7cc2c5c9919b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c990d3
+7efe7cc2c5c990d3 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9b133
+7efe7cc2c5c9b133 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9aaf3
+7efe7cc2c5c9aaf3 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9a7d3
+7efe7cc2c5c9a7d3 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9a70b
+7efe7cc2c5c9a70b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9f0d3
+7efe7cc2c5c9f0d3 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9ce73
+7efe7cc2c5c9ce73 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9fd53
+7efe7cc2c5c9fd53 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca27db
+7efe7cc2c5ca27db dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9f00b
+7efe7cc2c5c9f00b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9e773
+7efe7cc2c5c9e773 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9dfa3
+7efe7cc2c5c9e6ab dgram       0      0                0 7efe7cc2c5c9e5e3 7efe7cc2c5c9e5e3                0
+7efe7cc2c5c9e5e3 dgram       0      0                0 7efe7cc2c5c9e6ab 7efe7cc2c5c9e6ab                0
+7efe7cc2c5c9fc8b dgram       0      0                0 7efe7cc2c5c9fbc3 7efe7cc2c5c9fbc3                0
+7efe7cc2c5c9fbc3 dgram       0      0                0 7efe7cc2c5c9fc8b 7efe7cc2c5c9fc8b                0
+7efe7cc2c5c9dfa3 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9e133
+7efe7cc2c5c9e133 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9d4b3
+7efe7cc2c5c9fafb dgram       0      0                0 7efe7cc2c5c9fa33 7efe7cc2c5c9fa33                0
+7efe7cc2c5c9fa33 dgram       0      0                0 7efe7cc2c5c9fafb 7efe7cc2c5c9fafb                0
+7efe7cc2c5c9edb3 dgram       0      0                0 7efe7cc2c5c9eceb 7efe7cc2c5c9eceb                0
+7efe7cc2c5c9eceb dgram       0      0                0 7efe7cc2c5c9edb3 7efe7cc2c5c9edb3                0
+7efe7cc2c5c9d4b3 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9d3eb
+7efe7cc2c5c9d3eb dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9ea93
+7efe7cc2c5c9ea93 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9da2b
+7efe7cc2c5c9da2b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9d323
+7efe7cc2c5c9d323 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9d963
+7efe7cc2c5c9d963 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9de13
+7efe7cc2c5c9de13 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5c9e9cb
+7efe7cc2c5c9e9cb dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca1db3
+7efe7cc2c5ca1db3 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca2a33
+7efe7cc2c5ca2a33 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca296b
+7efe7cc2c5ca2bc3 dgram       0      0                0 7efe7cc2c5ca2afb 7efe7cc2c5ca2afb                0
+7efe7cc2c5ca2afb dgram       0      0                0 7efe7cc2c5ca2bc3 7efe7cc2c5ca2bc3                0
+7efe7cc2c5ca296b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca2713
+7efe7cc2c5ca2713 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca264b
+7efe7cc2c5ca264b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca2583
+7efe7cc2c5ca2583 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca23f3
+7efe7cc2c5ca23f3 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca232b
+7efe7cc2c5ca232b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca2263
+7efe7cc2c5ca2263 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca200b
+7efe7cc2c5ca219b dgram       0      0                0 7efe7cc2c5ca20d3 7efe7cc2c5ca20d3                0
+7efe7cc2c5ca20d3 dgram       0      0                0 7efe7cc2c5ca219b 7efe7cc2c5ca219b                0
+7efe7cc2c5ca200b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca1f43
+7efe7cc2c5ca1f43 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca1e7b
+7efe7cc2c5ca1e7b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca1ceb
+7efe7cc2c5ca1ceb dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca1c23
+7efe7cc2c5ca1c23 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca1b5b
+7efe7cc2c5ca1b5b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca1a93
+7efe7cc2c5ca1a93 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca19cb
+7efe7cc2c5ca19cb dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca1903
+7efe7cc2c5ca1903 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca16ab
+7efe7cc2c5ca12c3 dgram       0      0                0 7efe7cc2c5ca11fb 7efe7cc2c5ca11fb                0
+7efe7cc2c5ca11fb dgram       0      0                0 7efe7cc2c5ca12c3 7efe7cc2c5ca12c3                0
+7efe7cc2c5ca16ab dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca138b
+7efe7cc2c5ca15e3 dgram       0      0                0 7efe7cc2c5ca151b 7efe7cc2c5ca151b                0
+7efe7cc2c5ca151b dgram       0      0                0 7efe7cc2c5ca15e3 7efe7cc2c5ca15e3                0
+7efe7cc2c5ca138b dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca1133
+7efe7cc2c5ca1133 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca0e13
+7efe7cc2c5ca106b dgram       0      0                0 7efe7cc2c5ca0fa3 7efe7cc2c5ca0fa3                0
+7efe7cc2c5ca0fa3 dgram       0      0                0 7efe7cc2c5ca106b 7efe7cc2c5ca106b                0
+7efe7cc2c5ca0e13 dgram       0      0                0 7efe7cc2c5c9ff3b                0 7efe7cc2c5ca0003
+7efe7cc2c5ca0003 dgram       0      0                0 7efe7cc2c5c9ff3b                0                0
+7efe7cc2c5c9ff3b dgram       0      0 7efe7cb92d851673                0 7efe7cc2c5c7c57b                0 /private//var/run/syslog
+Registered kernel control modules
+id       flags    pcbcount rcvbuf   sndbuf   name 
+       1        9        1   131072   131072 com.apple.flow-divert 
+       2        1       26    65536    65536 com.apple.net.netagent 
+       3        9        0   524288   524288 com.apple.content-filter 
+       4       29        3   524288   524288 com.apple.net.utun_control 
+       5       21        0    65536    65536 com.apple.net.ipsec_control 
+       6        0       64     8192     2048 com.apple.netsrc 
+       7       18        3     8192     2048 com.apple.network.statistics 
+       8        5        0     8192    32768 com.apple.network.tcp_ccdebug 
+       9        1        0     8192     2048 com.apple.network.advisory 
+       a        1        0    65536    65536 com.apple.net.rvi_control 
+       b        1        0    16384     2048 com.apple.nke.sockwall 
+       c        4        0    65536     2048 com.apple.uart.URT0 
+       d        4        0     8192     2048 com.apple.uart.sk.URT0 
+Active kernel event sockets
+Proto Recv-Q Send-Q vendor  class  subcl
+kevt       0      0      1      6      1
+kevt       0      0      1      1      2
+kevt       0      0      1      1     11
+kevt       0      0      1      6      1
+kevt       0      0      1      6      1
+kevt       0      0      1      6      1
+kevt       0      0      1      6      1
+kevt       0      0      1      1      6
+kevt       0      0      1      1      1
+kevt       0      0      1      6      1
+kevt       0      0      1      1      2
+kevt       0      0      1      1      7
+kevt       0      0      1      1      1
+kevt       0      0      1      1      2
+kevt       0      0      1      1      0
+kevt       0      0      1      3      3
+Active kernel control sockets
+Proto Recv-Q Send-Q   unit     id name
+kctl       0      0      1      1 com.apple.flow-divert
+kctl       0      0      1      2 com.apple.net.netagent
+kctl       0      0      2      2 com.apple.net.netagent
+kctl       0      0      3      2 com.apple.net.netagent
+kctl       0      0      4      2 com.apple.net.netagent
+kctl       0      0      5      2 com.apple.net.netagent
+kctl       0      0      6      2 com.apple.net.netagent
+kctl       0      0      7      2 com.apple.net.netagent
+kctl       0      0      8      2 com.apple.net.netagent
+kctl       0      0      9      2 com.apple.net.netagent
+kctl       0      0     10      2 com.apple.net.netagent
+kctl       0      0     11      2 com.apple.net.netagent
+kctl       0      0     12      2 com.apple.net.netagent
+kctl       0      0     13      2 com.apple.net.netagent
+kctl       0      0     14      2 com.apple.net.netagent
+kctl       0      0     15      2 com.apple.net.netagent
+kctl       0      0     16      2 com.apple.net.netagent
+kctl       0      0     17      2 com.apple.net.netagent
+kctl       0      0     18      2 com.apple.net.netagent
+kctl       0      0     19      2 com.apple.net.netagent
+kctl       0      0     20      2 com.apple.net.netagent
+kctl       0      0     21      2 com.apple.net.netagent
+kctl       0      0     22      2 com.apple.net.netagent
+kctl       0      0     23      2 com.apple.net.netagent
+kctl       0      0     24      2 com.apple.net.netagent
+kctl       0      0     25      2 com.apple.net.netagent
+kctl       0      0     26      2 com.apple.net.netagent
+kctl       0      0      1      4 com.apple.net.utun_control
+kctl       0      0      2      4 com.apple.net.utun_control
+kctl       0      0      3      4 com.apple.net.utun_control
+kctl       0      0      1      6 com.apple.netsrc
+kctl       0      0      2      6 com.apple.netsrc
+kctl       0      0      3      6 com.apple.netsrc
+kctl       0      0      4      6 com.apple.netsrc
+kctl       0      0      5      6 com.apple.netsrc
+kctl       0      0      6      6 com.apple.netsrc
+kctl       0      0      7      6 com.apple.netsrc
+kctl       0      0      8      6 com.apple.netsrc
+kctl       0      0      9      6 com.apple.netsrc
+kctl       0      0     10      6 com.apple.netsrc
+kctl       0      0     11      6 com.apple.netsrc
+kctl       0      0     12      6 com.apple.netsrc
+kctl       0      0     13      6 com.apple.netsrc
+kctl       0      0     14      6 com.apple.netsrc
+kctl       0      0     15      6 com.apple.netsrc
+kctl       0      0     16      6 com.apple.netsrc
+kctl       0      0     17      6 com.apple.netsrc
+kctl       0      0     18      6 com.apple.netsrc
+kctl       0      0     19      6 com.apple.netsrc
+kctl       0      0     20      6 com.apple.netsrc
+kctl       0      0     21      6 com.apple.netsrc
+kctl       0      0     22      6 com.apple.netsrc
+kctl       0      0     23      6 com.apple.netsrc
+kctl       0      0     24      6 com.apple.netsrc
+kctl       0      0     25      6 com.apple.netsrc
+kctl       0      0     26      6 com.apple.netsrc
+kctl       0      0     27      6 com.apple.netsrc
+kctl       0      0     28      6 com.apple.netsrc
+kctl       0      0     29      6 com.apple.netsrc
+kctl       0      0     30      6 com.apple.netsrc
+kctl       0      0     31      6 com.apple.netsrc
+kctl       0      0     32      6 com.apple.netsrc
+kctl       0      0     33      6 com.apple.netsrc
+kctl       0      0     34      6 com.apple.netsrc
+kctl       0      0     35      6 com.apple.netsrc
+kctl       0      0     36      6 com.apple.netsrc
+kctl       0      0     37      6 com.apple.netsrc
+kctl       0      0     38      6 com.apple.netsrc
+kctl       0      0     39      6 com.apple.netsrc
+kctl       0      0     40      6 com.apple.netsrc
+kctl       0      0     41      6 com.apple.netsrc
+kctl       0      0     42      6 com.apple.netsrc
+kctl       0      0     43      6 com.apple.netsrc
+kctl       0      0     44      6 com.apple.netsrc
+kctl       0      0     45      6 com.apple.netsrc
+kctl       0      0     46      6 com.apple.netsrc
+kctl       0      0     47      6 com.apple.netsrc
+kctl       0      0     48      6 com.apple.netsrc
+kctl       0      0     49      6 com.apple.netsrc
+kctl       0      0     50      6 com.apple.netsrc
+kctl       0      0     51      6 com.apple.netsrc
+kctl       0      0     52      6 com.apple.netsrc
+kctl       0      0     53      6 com.apple.netsrc
+kctl       0      0     54      6 com.apple.netsrc
+kctl       0      0     55      6 com.apple.netsrc
+kctl       0      0     56      6 com.apple.netsrc
+kctl       0      0     57      6 com.apple.netsrc
+kctl       0      0     58      6 com.apple.netsrc
+kctl       0      0     59      6 com.apple.netsrc
+kctl       0      0     60      6 com.apple.netsrc
+kctl       0      0     61      6 com.apple.netsrc
+kctl       0      0     62      6 com.apple.netsrc
+kctl       0      0     63      6 com.apple.netsrc
+kctl       0      0     64      6 com.apple.netsrc
+kctl       0      0      1      7 com.apple.network.statistics
+kctl       0      0      2      7 com.apple.network.statistics
+kctl       0      0      3      7 com.apple.network.statistics

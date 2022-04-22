@@ -1,47 +1,86 @@
+# server {
+#         listen 80 default_server;
+#         listen [::]:80 default_server;
+#         server_name localhost fcatinau.42.fr;
+#         server_tokens off;
+#         root /var/www/html;
+#         location / {
+#                 try_files $uri $uri/ /index.php?$args;
+#         }
+#         index index.php index.nginx-debian.html;
+#         location /wordpress {
+#                 proxy_pass http://127.0.0.1:9000;
+#         }
+# }
+
+# upstream wp {
+#         server 127.0.0.1:9000;
+# }
+
+# server {
+#         listen 443 ssl default_server;
+#         listen [::]:443 ssl default_server;
+#         server_name localhost fcatinau.42.fr;
+
+#         root /var/html/www;
+#         ssl     on;
+#         ssl_certificate         /etc/nginx/ssl/localhost.pem;
+#         ssl_certificate_key     /etc/nginx/ssl/localhost.key;
+#         ssl_protocols TLSv1.3 TLSv1.2;
+
+#         # Add index.php to the list if you are using PHP
+#         index index.html index.php;
+
+#         location / {
+#                 autoindex on;
+#                 # First attempt to serve request as file, then
+#                 # as directory, then fall back to displaying a 404.
+#                 try_files $uri $uri/ =404;
+#         }
+
+#         # deny access to .htaccess files, if Apache's document root
+#         # concurs with nginx's one
+#         #
+#         location ~ /\.ht {
+#                 deny all;
+#         }
+
+#         # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
+#         #
+#         location ~ \.php$ {
+#                 include snippets/fastcgi-php.conf;
+#         #       # With php7.0-fpm:
+#                 fastcgi_pass unix:/run/php/php7.3-fpm.sock;
+#         }
+
+# }
+
 server {
-        listen 80 default_server;
-        listen [::]:80 default_server;
-        server_name fcatinau.42.fr;
+        listen 80;
+        listen [::]:80;
 
-        location /wordpress {
-                proxy_pass http://127.0.0.1:9000;
-        }
-}
+        root /var/www/html;
+        server_tokens off;
+        index index.php;
+        server_name localhost;
 
-server {
-        listen 443 ssl default_server;
-        listen [::]:443 ssl default_server;
-        server_name fcatinau.42.fr;
-
-        root /var/html/www;
-        ssl     on;
-        ssl_certificate         /etc/nginx/ssl/fcatinau.pem;
-        ssl_certificate_key     /etc/nginx/ssl/fcatinau.key;
-        ssl_protocols TLSv1.3 TLSv1.2;
-
-        # Add index.php to the list if you are using PHP
-        index index.html index.php;
+        listen 443 ssl;
+        listen [::]:443 ssl ;
+        ssl on;
+        ssl_certificate /etc/nginx/ssl/localhost.pem;
+        ssl_certificate_key /etc/nginx/ssl/localhostkey.key;
 
         location / {
                 autoindex on;
-                # First attempt to serve request as file, then
-                # as directory, then fall back to displaying a 404.
                 try_files $uri $uri/ =404;
         }
 
-        # deny access to .htaccess files, if Apache's document root
-        # concurs with nginx's one
-        #
         location ~ /\.ht {
                 deny all;
         }
 
-        # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
-        #
         location ~ \.php$ {
                 include snippets/fastcgi-php.conf;
-        #       # With php7.0-fpm:
                 fastcgi_pass unix:/run/php/php7.3-fpm.sock;
         }
-
 }
