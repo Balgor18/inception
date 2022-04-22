@@ -8,11 +8,14 @@ server {
                 try_files $uri $uri/ /index.php?$args;
         }
         index index.php index.nginx-debian.html;
+        location /wordpress {
+                proxy_pass http://127.0.0.1:9000;
+        }
 }
 
-# upstream wp {
-#         server 127.0.0.1:9000;
-# }
+upstream wp {
+        server 127.0.0.1:9000;
+}
 
 server {
         listen 443 ssl default_server;
@@ -52,35 +55,4 @@ server {
                 fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
                 fastcgi_param SCRIPT_NAME $fastcgi_script_name;
         }
-
 }
-
-# server {
-#         listen 80 default_server;
-#         listen [::]:80 default_server;
-
-#         root /var/www/html;
-#         server_tokens off;
-#         index index.php;
-#         server_name localhost;
-
-#         listen 443 ssl default_server;
-#         listen [::]:443 ssl default_server;
-#         ssl on;
-#         ssl_certificate /etc/nginx/ssl/localhost.pem;
-#         ssl_certificate_key /etc/nginx/ssl/localhostkey.key;
-
-#         location / {
-#                 autoindex on;
-#                 try_files $uri $uri/ =404;
-#         }
-
-#         location ~ /\.ht {
-#                 deny all;
-#         }
-
-#         location ~ \.php$ {
-#                 include snippets/fastcgi-php.conf;
-#                 fastcgi_pass unix:/run/php/php7.3-fpm.sock;
-#         }
-# }
