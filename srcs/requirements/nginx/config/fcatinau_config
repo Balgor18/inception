@@ -3,7 +3,9 @@ server {
         listen [::]:80 default_server;
         server_name fcatinau.42.fr;
 
-        return 301;
+        location /wordpress {
+                proxy_pass http://127.0.0.1:9000;
+        }
 }
 
 server {
@@ -12,9 +14,10 @@ server {
         server_name fcatinau.42.fr;
 
         root /var/html/www;
-        ssl_protocols TLSv1.3 TLSv1.2;
+        ssl     on;
         ssl_certificate         /etc/nginx/ssl/fcatinau.pem;
         ssl_certificate_key     /etc/nginx/ssl/fcatinau.key;
+        ssl_protocols TLSv1.3 TLSv1.2;
 
         # Add index.php to the list if you are using PHP
         index index.html index.php;
