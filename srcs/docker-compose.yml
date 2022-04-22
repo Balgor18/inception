@@ -8,8 +8,6 @@ services:
     restart : always
     volumes:
       - db_data:/var/lib/mysql/data
-    # volumes:
-    #   - /home/fcatinau/data/db_data:/var/lib/mysql/data
     networks:
       - inception
     env_file :
@@ -25,8 +23,6 @@ services:
     restart: always
     volumes:
       - wordpress:/var/www/html/
-    # volumes:
-    #   - /home/fcatinau/data/wordpress:/var/www/html/
     networks:
       - inception
     env_file :
@@ -44,8 +40,6 @@ services:
       - inception
     volumes :
       - wordpress:/var/www/html
-    # volumes :
-    #   - /home/fcatinau/data/wordpress:/var/www/html
     env_file :
       - .env
 
@@ -58,12 +52,14 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      device: /Users/florian/data/db_data
+      # device: /Users/florian/data/db_data
+      device: /home/fcatinau/data/db_data
       o: bind
 
   wordpress:
     driver: local
     driver_opts:
       type: none
-      device: /Users/florian/data/wordpress
+      # device: /Users/florian/data/wordpress
+      device: /home/fcatinau/data/wordpress
       o: bind
