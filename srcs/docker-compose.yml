@@ -5,8 +5,6 @@ services:
     build :
       context : ./requirements/mariadb/.
       dockerfile : ./Dockerfile
-    ports :
-      - "3306"
     restart : always
     volumes:
       - db_data:/var/lib/mysql/data
@@ -38,8 +36,6 @@ services:
     build :
       context : ./requirements/wordpress/.
       dockerfile : ./Dockerfile
-    ports :
-      - "9000"
     restart: always
     depends_on :
       - nginx

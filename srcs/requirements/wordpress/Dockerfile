@@ -8,7 +8,7 @@ COPY ./config/script.sh /var/.
 COPY ./config/wp-config.php /tmp/.
 
 RUN mkdir -p /var/run && mkdir /run/php
-RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && php wp-cli.phar --info && chmod +x wp-cli.phar && mv wp-cli.phar /usr/local/bin/wp-cli
+RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && chmod +x wp-cli.phar && mv wp-cli.phar /usr/local/bin/wp-cli
 
 WORKDIR /var/www/html
 

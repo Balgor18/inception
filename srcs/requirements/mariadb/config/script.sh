@@ -10,15 +10,18 @@
 # EOF
 
 cat << EOF > /var/conf.log
-CREATE DATABASE wordpress;
+CREATE DATABASE IF NOT EXISTS wordpress;
+
 GRANT ALL ON *.* TO 'root'@'localhost' IDENTIFIED BY '1R00tP4sword1*' WITH GRANT OPTION;
-SET PASSWORD FOR 'root'@'localhost'=PASSWORD('1R00tP4sword1*') ;
 GRANT ALL ON *.* TO 'fcatinau'@'%' IDENTIFIED BY 'fcatinau_42';
 
-GRANT ALL ON wordpress.* TO 'wordpress'@'%' IDENTIFIED BY '2134tgefw456y*';
+CREATE USER IF NOT EXSITS 'wordpress'@'%' IDENTIFIED by '2134tgefw456y*s';
+GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress'@'%' WITH GRANT OPTION;
+
 FLUSH PRIVILEGES;
 exit
 EOF
+# SET PASSWORD FOR 'root'@'localhost'=PASSWORD('1R00tP4sword1*') ;
 
 # mysql -u root -p --skip-password < /var/conf.log
 # mysql -u root -p --skip-password < /var/conf.log
