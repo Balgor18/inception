@@ -5,6 +5,7 @@ services:
     build :
       context : ./requirements/mariadb/.
       dockerfile : ./Dockerfile
+    container_name: mariadb
     restart : always
     volumes:
       - db_data:/var/lib/mysql/data
@@ -20,6 +21,7 @@ services:
     build :
       context : ./requirements/nginx/.
       dockerfile : ./Dockerfile
+    container_name: nginx
     ports:
       - "443:443" # host:container/UDP or tcp
     restart: always
@@ -36,6 +38,7 @@ services:
     build :
       context : ./requirements/wordpress/.
       dockerfile : ./Dockerfile
+    container_name: wordpress
     restart: always
     depends_on :
       - nginx
