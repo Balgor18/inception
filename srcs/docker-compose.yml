@@ -5,6 +5,7 @@ services:
     build :
       context : ./requirements/mariadb/.
       dockerfile : ./Dockerfile
+    image : mariadb
     container_name: mariadb
     restart : always
     volumes:
@@ -19,6 +20,7 @@ services:
     build :
       context : ./requirements/nginx/.
       dockerfile : ./Dockerfile
+    image: nginx
     container_name: nginx
     ports:
       - "443:443" # host:container/UDP or tcp
@@ -34,6 +36,7 @@ services:
     build :
       context : ./requirements/wordpress/.
       dockerfile : ./Dockerfile
+    image : wordpress
     container_name: wordpress
     restart: always
     depends_on :
@@ -55,14 +58,14 @@ volumes:
     driver: local
     driver_opts:
       type: none
-      # device: /Users/florian/data/db_data
-      device: /home/fcatinau/data/db_data
+      device: /Users/florian/data/db_data
+      # device: /home/fcatinau/data/db_data
       o: bind
 
   wordpress:
     driver: local
     driver_opts:
       type: none
-      # device: /Users/florian/data/wordpress
-      device: /home/fcatinau/data/wordpress
+      device: /Users/florian/data/wordpress
+      # device: /home/fcatinau/data/wordpress
       o: bind
