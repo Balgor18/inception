@@ -28,7 +28,21 @@ https://code.tutsplus.com/articles/download-and-install-wordpress-via-the-shell-
 https://make.wordpress.org/cli/handbook/guides/installing/
 https://make.wordpress.org/cli/
 
+#install docker
+https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10
+sudo apt-get install docker-ce docker-ce-cli containerd.io
+
+#Install docker compose
+sudo apt install docker-compose
+
 # docker compose
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+#Verifier la version de docker compose
+docker-compose --version
+#Need 1.29.*
+
 https://docs.docker.com/compose/gettingstarted/
 https://docs.docker.com/compose/reference/
 

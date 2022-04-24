@@ -1,21 +1,21 @@
-server {
-        listen 80 default_server;
-        listen [::]:80 default_server;
-        server_name localhost fcatinau.42.fr;
-        server_tokens off;
-        root /var/www/html;
-        location / {
-                try_files $uri $uri/ /index.php?$args;
-        }
-        index index.php index.nginx-debian.html;
-        location /wordpress {
-                proxy_pass http://127.0.0.1:9000;
-        }
-}
+# server {
+#         listen 80 default_server;
+#         listen [::]:80 default_server;
+#         server_name localhost fcatinau.42.fr;
+#         server_tokens off;
+#         root /var/www/html;
+#         location / {
+#                 try_files $uri $uri/ /index.php?$args;
+#         }
+#         index index.php index.nginx-debian.html;
+        # location /wordpress {
+        #         proxy_pass http://127.0.0.1:9000;
+        # }
+# }
 
-upstream wp {
-        server 127.0.0.1:9000;
-}
+# upstream wp {
+#         server 127.0.0.1:9000;
+# }
 
 server {
         listen 443 ssl default_server;

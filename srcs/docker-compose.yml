@@ -1,4 +1,4 @@
-version: '3.9'
+version: '3'
 services:
   # Mariadb config
   mariadb:
@@ -11,7 +11,24 @@ services:
     volumes:
       - db_data:/var/lib/mysql/data
     networks:
-      - inception
+      - backend
+    env_file :
+      - .env
+
+  wordpress:
+    build :
+      context : ./requirements/wordpress/.
+      dockerfile : ./Dockerfile
+    image : wordpress
+    container_name: wordpress
+    restart: always
+    depends_on :
+      - nginx
+      - mariadb
+    networks:
+      - backend
+    volumes :
+      - wordpress:/var/www/html
     env_file :
       - .env
 
@@ -28,44 +45,27 @@ services:
     volumes:
       - wordpress:/var/www/html/
     networks:
-      - inception
-    env_file :
-      - .env
-
-  wordpress:
-    build :
-      context : ./requirements/wordpress/.
-      dockerfile : ./Dockerfile
-    image : wordpress
-    container_name: wordpress
-    restart: always
-    depends_on :
-      - nginx
-      - mariadb
-    networks:
-      - inception
-    volumes :
-      - wordpress:/var/www/html
+      - backend
     env_file :
       - .env
 
 networks:
-  inception:
-    driver: bridge
+  backend:
+    # driver: bridge
 
 volumes:
   db_data:
     driver: local
     driver_opts:
       type: none
-      device: /Users/florian/data/db_data
-      # device: /home/fcatinau/data/db_data
+      # device: /Users/florian/data/db_data
+      device: /home/fcatinau/data/db_data
       o: bind
 
   wordpress:
     driver: local
     driver_opts:
       type: none
-      device: /Users/florian/data/wordpress
-      # device: /home/fcatinau/data/wordpress
+      # device: /Users/florian/data/wordpress
+      device: /home/fcatinau/data/wordpress
       o: bind
