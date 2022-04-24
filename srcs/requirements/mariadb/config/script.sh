@@ -9,25 +9,15 @@
 # exit
 # EOF
 
-cat << EOF > /var/conf.log
+cat << EOF > info.sql
 CREATE DATABASE IF NOT EXISTS wordpress;
-
+SET PASSWORD FOR 'root'@'localhost'=PASSWORD('1R00tP4sword1*');
 GRANT ALL ON *.* TO 'root'@'localhost' IDENTIFIED BY '1R00tP4sword1*' WITH GRANT OPTION;
-GRANT ALL ON *.* TO 'fcatinau'@'%' IDENTIFIED BY 'fcatinau_42';
-
-CREATE USER IF NOT EXSITS 'wordpress'@'%' IDENTIFIED by '2134tgefw456y*s';
+CREATE USER IF NOT EXISTS 'wordpress'@'%' IDENTIFIED by '2134tgefw456y*s';
 GRANT ALL PRIVILEGES ON wordpress.* TO 'wordpress'@'%' WITH GRANT OPTION;
-
 FLUSH PRIVILEGES;
-exit
 EOF
-# SET PASSWORD FOR 'root'@'localhost'=PASSWORD('1R00tP4sword1*') ;
 
-# mysql -u root -p --skip-password < /var/conf.log
-# mysql -u root -p --skip-password < /var/conf.log
+service mysql start && mysql < info.sql
 
-mysqld --user=mysql --verbose=0 --skip-name-resolve --bootstrap --skip-networking=0 < /var/conf.log
-mysqld --console --user=mysql --skip-name-resolve --skip-networking=0
-
-exec service mysql start
 # rm /var/conf.log

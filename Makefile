@@ -20,7 +20,7 @@ stop	:
 
 clean:
 	docker volume ls -qf dangling=true | xargs -r docker volume rm
-	docker system prune -f
+	docker system prune -f -a
 
 fclean: stop clean
 	rm -rf ${HOME}data/wp-db
