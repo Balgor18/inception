@@ -9,7 +9,7 @@ services:
     container_name: mariadb
     restart : always
     volumes:
-      - db_data:/var/lib/mysql/data
+      - db_data:/var/lib/mysql/
     networks:
       - backend
     env_file :
@@ -23,7 +23,6 @@ services:
     container_name: wordpress
     restart: always
     depends_on :
-      - nginx
       - mariadb
     networks:
       - backend
@@ -39,6 +38,8 @@ services:
       dockerfile : ./Dockerfile
     image: nginx
     container_name: nginx
+    depends_on :
+      - wordpress
     ports:
       - "443:443" # host:container/UDP or tcp
     restart: always
