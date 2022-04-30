@@ -1,6 +1,6 @@
 FROM debian:buster
 
-RUN apt update -y && apt install curl mariadb-client php php7.3 php7.3-fpm php7.3-mysql php-common php7.3-cli php7.3-common php7.3-json php7.3-opcache php7.3-readline php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlrpc php-zip -y
+RUN apt update -y && apt install curl mariadb-client php php7.3 php7.3-fpm php7.3-mysql php-common php7.3-cli php7.3-common php7.3-json php7.3-opcache php7.3-readline php-curl php-gd php-intl php-mbstring php-soap php-xml php-xmlrpc php-zip gettext-base -y
 RUN mkdir -p /var/www/html && cd /var/www/html
 
 COPY ./config/php-fpm.conf /etc/php/7.3/fpm/pool.d/www.conf
