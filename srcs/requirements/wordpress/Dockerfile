@@ -5,7 +5,6 @@ RUN mkdir -p /var/www/html && cd /var/www/html
 
 COPY ./config/php-fpm.conf /etc/php/7.3/fpm/pool.d/www.conf
 COPY ./config/script.sh /var/.
-COPY ./config/wp-config.php /tmp/.
 
 RUN mkdir -p /var/run && mkdir /run/php
 RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
@@ -14,6 +13,5 @@ RUN mv wp-cli.phar /usr/local/bin/wp
 
 WORKDIR /var/www/html
 RUN wp core download --allow-root
-RUN mv /tmp/wp-config.php /var/www/html/.
 
 CMD ["sh", "/var/script.sh"]

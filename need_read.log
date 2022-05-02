@@ -23,10 +23,12 @@ https://www.wistee.fr/installer-ssl/activer-ssl-nginx.html
 
 #Wordpress
 https://code.tutsplus.com/articles/download-and-install-wordpress-via-the-shell-over-ssh--wp-24403
+https://kinsta.com/fr/blog/wp-config-php/
 
 #Wordpress commandline
 https://make.wordpress.org/cli/handbook/guides/installing/
 https://make.wordpress.org/cli/
+https://developer.wordpress.org/cli/commands/
 
 #install docker
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10

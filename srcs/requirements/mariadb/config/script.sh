@@ -9,5 +9,6 @@ then
 	service mysql stop
 	touch /var/lib/mysql/.db_create
 fi
+exec service mysql start
 # exec mariadb -u root < /var/init_env.sql
-exec mysqld -u mysql
+# exec mysqld -u mysql
