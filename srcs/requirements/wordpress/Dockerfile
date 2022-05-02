@@ -8,9 +8,13 @@ COPY ./config/script.sh /var/.
 COPY ./config/wp-config.php /tmp/.
 
 RUN mkdir -p /var/run && mkdir /run/php
-RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && chmod +x wp-cli.phar && mv wp-cli.phar /usr/local/bin/wp
-
+# RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar && chmod +x wp-cli.phar && mv wp-cli.phar /usr/local/bin/wp
+# RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar; chmod +x wp-cli.phar; mv wp-cli.phar /usr/local/bin/wp; wp core download --allow-root
+RUN curl -O https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
+RUN php wp-cli.phar --info
+RUN chmod +x wp-cli.phar
+RUN mv wp-cli.phar /usr/local/bin/wp
 WORKDIR /var/www/html
 CMD wp core download --allow-root
 
-# CMD ["sh", "/var/script.sh"]
+CMD ["sh", "/var/script.sh"]

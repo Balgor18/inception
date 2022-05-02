@@ -1,10 +1,11 @@
 
 sleep 3
 
-if !wp core is-installed; then
+if ! wp core --allow-root is-installed; then
 	rm -f /var/www/html/wp-config.php
 	echo "Jai rm le fichier wp-config"
 	envsubst < /tmp/wp-config.php > /var/www/html/wp-config.php
+	sed $'s/= \'wp_\';/$table_prefix  = \'wp_\';/g' /var/www/html/wp-config.php
 	echo "J'envsub"
 	cat /var/www/html/wp-config.php
 
