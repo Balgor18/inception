@@ -52,7 +52,6 @@ services:
 
 networks:
   backend:
-    # driver: bridge
 
 volumes:
   db_data:
