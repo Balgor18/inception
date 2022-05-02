@@ -1,5 +1,10 @@
 
-sleep 3
+until mysqladmin -hmariadb -uroot -"p1R00tP4ssword1*" ping && \
+			mariadb -hmariadb -uroot -p"1R00tP4ssword1*" -e "SHOW DATABASES;" | grep wordpress; do
+	sleep 2
+	echo "waiting to connect..."
+done
+echo "successfuly connected to db"
 
 if ! wp core --allow-root is-installed; then
 	rm -rf /var/www/html/wp-config.php
