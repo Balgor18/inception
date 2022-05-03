@@ -23,7 +23,6 @@ clean:
 	docker system prune -f -a
 
 fclean: stop clean
-	rm -rf ${HOME}data/wp-db
-	rm -rf ${HOME}data/wp-files
+	sudo rm -rf ${HOME}data
 
 re : fclean all
