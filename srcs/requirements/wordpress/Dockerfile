@@ -13,6 +13,6 @@ RUN mv wp-cli.phar /usr/local/bin/wp
 
 WORKDIR /var/www/html
 RUN wp core download --allow-root
-# RUN chown -R www-data:www-data /var/www/html
+RUN chown -R www-data:www-data /var/www/html
 
 CMD ["sh", "/var/script.sh"]

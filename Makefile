@@ -23,6 +23,6 @@ clean:
 	docker system prune -f -a
 
 fclean: stop clean
-	sudo rm -rf ${HOME}data
+	rm -rf ${HOME}data
 
 re : fclean all
