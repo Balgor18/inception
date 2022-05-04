@@ -17,15 +17,15 @@ server {
                 # autoindex on;
                 # First attempt to serve request as file, then
                 # as directory, then fall back to displaying a 404.
-                try_files $uri $uri/ index.php?$args;
+                # try_files $uri $uri/ index.php?$args;
+                try_files $uri $uri/ =404;
         }
 
         location ~ \.css {
-        add_header Content-Type text/css;
+        add_header  Content-Type    text/css;
         }
-
         location ~ \.js {
-                add_header Content-Type application/x-javascript;
+        add_header  Content-Type    application/x-javascript;
         }
         # deny access to .htaccess files, if Apache's document root
         # concurs with nginx's one
