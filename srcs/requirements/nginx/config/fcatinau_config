@@ -17,7 +17,6 @@ server {
                 # autoindex on;
                 # First attempt to serve request as file, then
                 # as directory, then fall back to displaying a 404.
-                # try_files $uri $uri/ index.php?$args;
                 try_files $uri $uri/ =404;
         }
 
@@ -37,7 +36,6 @@ server {
         # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
         #
         location ~ \.php$ {
-                # include snippets/fastcgi-php.conf;
 	        fastcgi_split_path_info ^(.+\.php)(/.+)$;
 		fastcgi_pass wordpress:9000;
 		fastcgi_index index.php;
