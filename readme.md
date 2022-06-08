@@ -6,7 +6,7 @@ https://www.youtube.com/watch?v=3c-iBn73dDE&t=2s
 
 # install docker
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10
-sudo apt-get install docker-ce docker-ce-cli containerd.io
+`sudo apt-get install docker-ce docker-ce-cli containerd.io`
 
 # Install docker compose
 ```
