@@ -9,11 +9,13 @@ https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-o
 sudo apt-get install docker-ce docker-ce-cli containerd.io
 
 # Install docker compose
-```sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 
 sudo chmod +x /usr/local/bin/docker-compose
 
-sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose```
+sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
+```
 
 # nginx
 https://www.nginx.com/resources/wiki/start/topics/tutorials/config_pitfalls/
